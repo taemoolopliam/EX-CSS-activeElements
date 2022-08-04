@@ -2,14 +2,14 @@
 Examples of active colors in javascript and jquery.
 
 
--jquery
+# jquery
 
     $(".tab-item").click(function (event) {
       $(".tab-item").removeClass("tab-item-active");
       event.target.classList.add("tab-item-active");
     });
 
--javascript
+# javascript
 
       const tabItem = document.getElementsByClassName("tab-item");
       for (var i = 0, length = tabItem.length; i < length; i++) {
